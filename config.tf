@@ -6,13 +6,13 @@ terraform {
     }
 	}
 
-  cloud {
-    organization = "gmarket-cloud-self-service"
+  # cloud {
+  #   organization = "gmarket-cloud-self-service"
 
-    workspaces {
-      name = "self-service"
-    }
-  }
+  #   workspaces {
+  #     name = "self-service"
+  #   }
+  # }
 }
 
 provider "azurerm" {
